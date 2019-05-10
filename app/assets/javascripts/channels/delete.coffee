@@ -7,8 +7,6 @@ App.delete = App.cable.subscriptions.create "DeleteChannel",
 
   received: (data) ->
     id = "#" + "div" + data['id']
-    console.log(id)
-    console.log('受信')
     $(id).remove()
 
   delete: (id)->
@@ -16,4 +14,3 @@ App.delete = App.cable.subscriptions.create "DeleteChannel",
 
 $(document).on 'click', '.delete-btn', (event) ->
   App.delete.delete event.target.id
-  console.log 'クリック'
