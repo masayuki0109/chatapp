@@ -1,3 +1,5 @@
-<div class="message">
-  <p><%= message.content %></p>
-</div>
+  <div id="div<%= message.id %>">
+    <%= message.content %>
+    <button id="<%=message.id%>" class="delete-btn">delete</button>
+  </div>
+
