@@ -1,3 +1,5 @@
 <div class="message">
-  <p><%= message.content %></p>
+  <p><%= message.content %>
+  <%= button_to "[X]", { :action => "delete", :id => message.id }, :confirm => "消すよ？", :method => :delete %>
+  </p>
 </div>

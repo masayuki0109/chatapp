@@ -1,0 +1,15 @@
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+/Users/masayuki/.anyenv/envs/rbenv/versions/2.6.1/bin/ruby -I /Users/masayuki/.anyenv/envs/rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190510-65631-8opcvt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.bundle
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190510-65631-181lece/skiptrace

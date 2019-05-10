@@ -1,0 +1,15 @@
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/masayuki/.anyenv/envs/rbenv/versions/2.6.1/bin/ruby -I /Users/masayuki/.anyenv/envs/rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190510-65631-1uduj6n.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/masayuki/dev/practices/chatApp/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190510-65631-o7n8cc/bootsnap
