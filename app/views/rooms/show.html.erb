@@ -4,5 +4,11 @@
     <label>Say something</label><br>
     <input type="text" data-behavior="room_speaker">
   </form>
-  <%= render @messages %>
+  <%@messages.each do |message|%>
+    <div id="div<%= message.id %>">
+    <%= message.content %>
+    <button id="<%=message.id%>" class="delete-btn">delete</button>
+    <button id="<%=message.id%>" class="delete-edit">edit</button>
+    </div>
+  <% end %>
 </div>

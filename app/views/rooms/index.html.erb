@@ -1,0 +1,9 @@
+  <div class="container">
+    <%@messages.each do |message|%>
+      <p>
+        <%= message.content %>
+        <button id="<%=message.id%>" class="delete-btn">削除</button>
+      </p>
+  <%end%>
+  </div>
+
