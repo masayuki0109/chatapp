@@ -4,8 +4,7 @@ class RoomsController < ApplicationController
   end
 
   def delete
-    @message = Message.find(params[:id])
-    @message.delete
+    Message.find(params[:id]).destroy
     @messages = Message.all
     render 'show'
   end
